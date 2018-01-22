@@ -1,6 +1,6 @@
 # vue-ssr
 
-> Nuxt.js project
+> A template project with a demo for Vue and Nuxt.
 
 ## Build Setup
 
