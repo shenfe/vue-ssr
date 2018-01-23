@@ -38,7 +38,4 @@ app.get('/getList', (req, res) => {
   })
 })
 
-module.exports = {
-  path: '/api',
-  handler: app
-}
+module.exports = app

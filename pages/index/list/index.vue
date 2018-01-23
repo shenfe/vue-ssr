@@ -4,7 +4,7 @@
     <Loading v-if="status == 0" />
     <ul v-else class="list">
       <li v-for="item in filterList" :key="item.id">
-        <nuxt-link :to="{ name: 'list-id', params: { id: item.id }}">
+        <nuxt-link :to="{ name: 'index-list-id', params: { id: item.id }}">
           {{ item.id }}: {{ item.title }}
         </nuxt-link>
       </li>
