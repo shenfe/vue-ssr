@@ -14,13 +14,18 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "express": "^4.16.2",
     "nuxt": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
+    "css-loader": "^0.28.9",
     "eslint": "^4.15.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "vue-style-loader": "^3.0.3"
   }
 }

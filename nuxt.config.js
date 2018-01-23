@@ -40,7 +40,21 @@ module.exports = {
     }
   },
   plugins: [
-    '~plugins/loading',
-    { src: '~plugins/loading', ssr: false }
-  ]
+    { src: '~/plugins/loading', ssr: false }
+  ],
+  serverMiddleware: [
+    // Will register redirect-ssl npm package
+    // 'redirect-ssl',
+
+    // Will register file from project api directory to handle /api/* requires
+    { path: '/api', handler: '~/apis/index.js' },
+
+    // We can create custom instances too
+    // { path: '/static2', handler: serveStatic(__dirname + '/static2') }
+  ],
+  /*
+  ** Environement variables
+  */
+  env: {
+  }
 }
