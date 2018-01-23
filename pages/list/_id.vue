@@ -15,7 +15,7 @@ import { lifecycleLogger } from '~/client/mixins'
 
 export default {
   name: 'DetailView',
-  mixins: ENV('pro') ? [] : [lifecycleLogger()],
+  mixins: process.env.environment !== 'dev' ? [] : [lifecycleLogger()],
   data () {
     return {
       status: 0,

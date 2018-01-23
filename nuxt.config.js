@@ -40,7 +40,7 @@ module.exports = {
     }
   },
   plugins: [
-    { src: '~/plugins/loading', ssr: false }
+    '~/plugins/loading'
   ],
   serverMiddleware: [
     // Will register redirect-ssl npm package
@@ -56,5 +56,6 @@ module.exports = {
   ** Environement variables
   */
   env: {
+    environement: 'dev'
   }
 }

@@ -25,7 +25,7 @@ const mixinForTest = {
 
 export default {
   name: 'ListView',
-  mixins: ENV('pro') ? [] : [mixinForTest],
+  mixins: process.env.environment !== 'dev' ? [] : [mixinForTest],
   data () {
     return {
       list: [],
