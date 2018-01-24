@@ -34,7 +34,7 @@ export default {
     }
   },
   asyncData (context) {
-    return axios.get('/api/getList')
+    return axios.get(process.env.apiBaseUrl + '/api/getList')
       .then(function (res) {
         return {
           list: res.data.data,

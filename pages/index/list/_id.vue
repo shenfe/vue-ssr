@@ -26,7 +26,7 @@ export default {
   },
   asyncData (context) {
     let id = context.params.id
-    return axios.get(`/api/getDetail?id=${id}`)
+    return axios.get(process.env.apiBaseUrl + `/api/getDetail?id=${id}`)
       .then(function (res) {
         return {
           id,

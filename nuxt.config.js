@@ -56,6 +56,7 @@ module.exports = {
   ** Environement variables
   */
   env: {
-    environement: 'dev'
+    environement: 'dev',
+    apiBaseUrl: 'http://localhost:3000'
   }
 }
