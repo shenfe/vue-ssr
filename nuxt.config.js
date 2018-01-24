@@ -42,6 +42,9 @@ module.exports = {
   plugins: [
     '~/plugins/loading'
   ],
+  router: {
+    middleware: ['redirect']
+  },
   serverMiddleware: [
     // Will register redirect-ssl npm package
     // 'redirect-ssl',
