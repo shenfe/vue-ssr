@@ -1,7 +1,7 @@
 {
   "name": "vue-ssr",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "a template project with a demo for Vue and Nuxt",
   "author": "hengwu <youchuangqiba@163.com>",
   "private": true,
   "scripts": {
