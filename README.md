@@ -20,3 +20,19 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
+## File Structure
+
+| Path | Content |
+| :--- | :--- |
+| /nuxt.config.js | . |
+| /layouts | . |
+| /pages | . |
+| /components | . |
+| /assets | . |
+| /client | . |
+| /apis | . |
+| /middleware | . |
+| /plugins | . |
+| /store | . |
+| /static | . |
