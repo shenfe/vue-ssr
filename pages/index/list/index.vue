@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input type="text" v-focus v-model="filterText">
+    <input type="text" v-focus :value="filterText" @input="updateFilterText">
     <Loading v-if="status == 0" />
     <ul v-else class="list">
       <li v-for="item in filterList" :key="item.id">
@@ -14,6 +14,8 @@
 
 <script>
 /* global ENV */
+
+import { mapState, mapMutations } from 'vuex'
 
 import axios from 'axios'
 
@@ -29,8 +31,7 @@ export default {
   data () {
     return {
       list: [],
-      status: 0,
-      filterText: ''
+      status: 0
     }
   },
   asyncData (context) {
@@ -46,12 +47,18 @@ export default {
       })
   },
   computed: {
-    filterList: function () {
+    ...mapState({
+      filterText: state => state.list.filterText
+    }),
+    filterList () {
       let t = this.filterText.trim()
       return this.list.filter(item => String(item.id).includes(t) || item.title.includes(t))
     }
   },
   methods: {
+    updateFilterText (e) {
+      this.$store.commit('list/filter', e.target.value)
+    }
   },
   directives: {
     focus: {
