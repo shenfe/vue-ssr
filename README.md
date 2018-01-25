@@ -1,6 +1,6 @@
 # vue-ssr
 
-> A template project with a demo for Vue and Nuxt.
+> 一个模板项目，用于快速开始使用Vue和Nuxt开发建站。
 
 ## Build Setup
 
@@ -19,7 +19,7 @@ $ npm start
 $ npm run generate
 ```
 
-Detailed explanation in [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+详见[Nuxt.js](https://github.com/nuxt/nuxt.js)[文档](https://zh.nuxtjs.org/guide/commands).
 
 ## File Structure
 
