@@ -1,8 +1,12 @@
 # vue-ssr
 
-> 一个模板项目，用于快速开始使用Vue和Nuxt开发建站。
+模板项目，用于快速开始使用Vue和Nuxt开发建站。
 
-## Build Setup
+## 架构特性
+
+单页面应用，服务器端渲染页面组件、控制路由。使用vue、vue-loader、vue-router、vuex、nuxt。
+
+## 构建和启动命令
 
 ``` bash
 # install dependencies
@@ -21,7 +25,7 @@ $ npm run generate
 
 详见[Nuxt.js](https://github.com/nuxt/nuxt.js)[文档](https://zh.nuxtjs.org/guide/commands).
 
-## File Structure
+## 文件结构
 
 | Path | Content |
 | :--- | :--- |
@@ -38,8 +42,8 @@ $ npm run generate
 | /store | Vuex状态存储。 |
 | /static | 静态文件。 |
 
-## Q & A
+## 快速开发
 
-1. 怎么组织路由？
-1. 怎么管理全局状态？
-1. 组件加载前请求数据怎么做？
+可参考示例代码进行组件、路由、状态数据的快速开发。
+
+![](./readme_assets/demo.gif)

@@ -25,7 +25,7 @@ export default {
     }
   },
   async fetch (context) {
-    console.log('`fetch` method: https://zh.nuxtjs.org/api/pages-fetch')
+    // console.log('`fetch` method: https://zh.nuxtjs.org/api/pages-fetch')
   },
   asyncData (context) {
     let id = context.params.id
