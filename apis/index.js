@@ -6,7 +6,7 @@ const sleep = function (d) {
 }
 
 app.get('/getDetail', (req, res) => {
-  sleep(500)
+  // sleep(500) // to test
   res.json({
     code: 200,
     data: {
@@ -18,7 +18,7 @@ app.get('/getDetail', (req, res) => {
 })
 
 app.get('/getList', (req, res) => {
-  sleep(500)
+  // sleep(500) // to test
   res.json({
     code: 200,
     data: [
