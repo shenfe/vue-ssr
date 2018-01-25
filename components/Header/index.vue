@@ -1,7 +1,7 @@
 <template>
   <ul class="nav global-flex">
     <li v-for="item in links" :key="item.alias" :class="[{ active: current === item.alias }, 'cell']">
-      <nuxt-link :to="'/' + item.alias">{{ item.text }}</nuxt-link>
+      <nuxt-link :to="{ name: item.alias }">{{ item.text }}</nuxt-link>
     </li>
   </ul>
 </template>

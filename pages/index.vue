@@ -18,8 +18,8 @@ export default {
   data () {
     return {
       navs: [
-        { alias: 'list', text: 'list' },
-        { alias: 'about', text: 'about' }
+        { alias: 'index-list', text: 'list' },
+        { alias: 'index-about', text: 'about' }
       ]
     }
   },
