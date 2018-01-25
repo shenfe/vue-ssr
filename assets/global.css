@@ -5,7 +5,12 @@ body, ul {
 }
 
 a {
+  color: #666;
   text-decoration: none;
+}
+
+a:visited {
+  color: #333;
 }
 
 input {

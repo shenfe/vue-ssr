@@ -26,7 +26,6 @@ ul.nav {
     padding: 16px 0 !important;
     a {
       display: block;
-      color: #666;
       border-right: 1px solid #ccc;
     }
     &.active a {
