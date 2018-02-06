@@ -4,7 +4,7 @@
 
 ## 架构特性
 
-单页面应用，服务器端渲染页面组件、控制路由。使用vue、vue-loader、vue-router、vuex、nuxt。
+单/多页面应用，服务器端渲染页面组件、控制路由。使用vue、vue-loader、vue-router、vuex、nuxt。
 
 ## 构建和启动命令
 
